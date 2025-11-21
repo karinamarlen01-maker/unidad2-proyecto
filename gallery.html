@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Mi Proyecto</title>
+    <meta name="description" content="Galería sencilla del proyecto.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Mi Proyecto</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Galería</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+    <h1>Galería</h1>
+
+    <div class="row mt-3">
+        <div class="col-md-4">
+            <img src="img/foto1.jpg" class="img-fluid mb-3" alt="Imagen 1">
+        </div>
+        <div class="col-md-4">
+            <img src="img/foto2.jpg" class="img-fluid mb-3" alt="Imagen 2">
+        </div>
+        <div class="col-md-4">
+            <img src="img/foto3.jpg" class="img-fluid mb-3" alt="Imagen 3">
+        </div>
+    </div>
+
+</div>
+
+<div class="container d-none d-md-block mt-4">
+    <h3>Zona oculta – Solo visible en pantallas grandes</h3>
+    <p>
+        Esta es una sección adicional que aparece únicamente en computadoras o tabletas grandes.
+        En celulares está completamente oculta.
+    </p>
+</div>
+
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    © 2025 - Mi Proyecto Web
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
+
